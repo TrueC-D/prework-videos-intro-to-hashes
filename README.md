@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-+ Explain when you would want to use a hash to store data
++ Explain that hashes are useful to store unordered data
 + Use a hash to store unordered data
 + Use bracket notation to access values in a hash
 + Describe the advantages of using symbols for hash keys 
