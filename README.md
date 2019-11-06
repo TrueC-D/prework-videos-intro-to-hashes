@@ -9,6 +9,8 @@
 
 ## Lesson
 
+<iframe width="100%" height="720" src="https://www.youtube.com/embed/ZwIdACueIG8?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+
 + Hi folks, this is Ian from Flatiron School. In this video, we're going to look at using hashes. Our learning goals for this video:
   + We'll look at why hashes can be useful in programming.
   + We'll use a hash to store unordered data
@@ -98,4 +100,4 @@ person.delete(:age)
 + We used a hash to store unordered data about a person
 + We used bracket notation to access and overwrite values in a hash
 + And we also talked about why to use symbols as hash keys in Ruby, and looked at the different syntax for that.
-+ Thanks so much for watching - happy coding! 
++ Thanks so much for watching - happy coding!
