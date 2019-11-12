@@ -13,18 +13,18 @@
 
 + Hi folks, this is Ian from Flatiron School. In this video, we're going to look at using hashes. Our learning goals for this video:
   + We'll look at why hashes can be useful in programming.
-  + We'll use a hash to store unordered data
-  + We'll use bracket notation to access values in a hash
-  + And we'll talk about why to use symbols as hash keys in Ruby
+  + We'll use a hash to store unordered data.
+  + We'll use bracket notation to access values in a hash.
+  + And we'll talk about why to use symbols as hash keys in Ruby.
 + So let's get started. We've seen that arrays can be really useful for storing lists of data, say, a list of names.
 ```ruby
 names = ["Katherine", "Dorothy", "Mary"]
 ```
-+ Sometimes, though, you might want to group data together, and each of the pieces of data might be slightly different. Say you're trying to group together data about a person. Some attributes you might have are name, age, and hometown. You could group this together using an array
++ Sometimes, though, you might want to group data together, and each of the pieces of data might be slightly different. Say you're trying to group together data about a person. Some attributes you might have are name, age, and hometown. You could group this together using an array.
 ```ruby
 person = ["Ian", 99, "Pittsburgh, PA"]
 ```
-+ So, there's a problem here. If another developer looks at this code, they have to kind of guess at what each of these things are. This gets even more complicated if we add more attributes - say, current city.
++ There's a problem here. If another developer looks at this code, they have to kind of guess at what each of these things are. This gets even more complicated if we add more attributes - say, current city.
 ```ruby
 person = ["Ian", 99, "Pittsburgh, PA", "New York, NY"]
 ```
@@ -46,7 +46,7 @@ person = {}
 | 3   | New York, NY     |
 
 + Let's replace the index numbers here with descriptive keys instead.
-+ Let's use `name`, `age`, `hometown`, and `current_location` respectively
++ Let's use `name`, `age`, `hometown`, and `current_location` respectively.
 
 | Index      | Value |
 | ----------- | ----------- |
@@ -55,7 +55,7 @@ person = {}
 | hometown     | Pittsburgh, PA       |
 | current_location  | New York, NY     |
 
-+ This is how our hash will be organized. We can simply add those pairs when we create our hash now. I'll pair these up using the hashrocket symbol - an equals sign followed by a greater-than sign
++ This is how our hash will be organized. We can simply add those pairs when we create our hash now. I'll pair these up using the hashrocket symbol - an equals sign followed by a greater-than sign.
 ```ruby
 person = { "name" => "Ian", "age" => 99, "hometown" => "Pittsburgh, PA", "current_location" => "New York, NY"}
 ```
@@ -97,7 +97,7 @@ person.delete(:age)
 + And we can see we've now removed the age from our person.
 + So that's a quick intro to hashes. Just to recap what we've learned:
 + We looked at why hashes can be useful in programming. Mainly to group related data together. There are some other uses too that we can look at in the future.
-+ We used a hash to store unordered data about a person
-+ We used bracket notation to access and overwrite values in a hash
++ We used a hash to store unordered data about a person.
++ We used bracket notation to access and overwrite values in a hash.
 + And we also talked about why to use symbols as hash keys in Ruby, and looked at the different syntax for that.
 + Thanks so much for watching - happy coding!
